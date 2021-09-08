@@ -28,26 +28,12 @@
  replay-btn" aria-hidden="true"></i></a>
     <div class="post-title">
         <p>
-            my-first-blog
+            六位随机码+时间延时5min
         </p>
         <hr>
     </div>
     <div class="post-content">
-        <h3 id="六位随机码-时间延时5min"><a href="#六位随机码-时间延时5min" class="headerlink" title="六位随机码+时间延时5min"></a>六位随机码+时间延时5min</h3><pre><code>//六位随机验证码 
-String code = &quot;&quot;;
-Random random = new Random(); 
-for (int i = 0; i &lt; 6; i++) &#123; 
-int r = random.nextInt(10); //每次随机出一个数字（0-9） 
-code = code + r; //把每次随机出的数字拼在一起 
-&#125; 
-//失效时间 
-SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;); 
-Date now = new Date(); 
-System.out.println(&quot;当前时间：&quot; + sdf.format(now)); 
-Calendar nowTime = Calendar.getInstance();         
-nowTime.add(Calendar.MINUTE, 5); 
-//当前时间加5min System.out.println(&quot;截止时间：&quot; + sdf.format(nowTime.getTime()));
-</code></pre>
+        <p>六位随机码+时间延时5min<br>    //六位随机验证码<br>    String code = “”;<br>    Random random = new Random();<br>    for (int i = 0; i &lt; 6; i++) {<br>    int r = random.nextInt(10); //每次随机出一个数字（0-9）<br>    code = code + r; //把每次随机出的数字拼在一起<br>    }<br>    //失效时间<br>    SimpleDateFormat sdf = new SimpleDateFormat(“yyyy-MM-dd HH:mm:ss”);<br>    Date now = new Date();<br>    System.out.println(“当前时间：” + sdf.format(now));<br>    Calendar nowTime = Calendar.getInstance();<br>    nowTime.add(Calendar.MINUTE, 5); //当前时间加5min<br>    System.out.println(“截止时间：” + sdf.format(nowTime.getTime()));</p>
 
     </div>
 

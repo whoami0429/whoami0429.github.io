@@ -4,7 +4,7 @@ date: 2021-09-08 09:38:23
 tags: [blog,java,hexo] #文章标签，可空，多标签请用格式，注意:后面有个空格
 description: 第一次用hexo
 comments: false  
-cover: /allimg/image.png
+cover: /articleImg/image.png
 
 ---
  # 六位随机码+时间延时5min
